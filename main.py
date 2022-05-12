@@ -103,4 +103,4 @@ elif MODE == 'CFB':
         plaintext = Padding.appendPadding(plaintext, blocksize=Padding.AES_blocksize, mode=0)
 
 else:
-    print('MODE not available please choose a value from CBC, ECB, CFB')
+    print('choose CBC, ECB, CFB')
